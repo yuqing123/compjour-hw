@@ -56,7 +56,6 @@ for a in accounts:
     totes += a['followers_count']
 print('H.', round(totes / len(accounts)))
 
-#fix this (different answer than provided)
 import statistics
 new = []
 for a in accounts:
