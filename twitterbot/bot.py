@@ -19,11 +19,11 @@ def make_it_so():
     mentions = twit_utils.get_mentions(CREDS_FILE, {"since_id": xid})
     print("Found", len(mentions), "mentions")
 
-    # Step 4. Get the most search_results 
-    keywordresult = search_results
-
-    # Step 5. from the mentions, see if anyone has used the hashtag #VIRALFOODTWEET
+    # Step 4. from the mentions, see if anyone has used the hashtag #VIRALFOODTWEET
     foodtweet = foo.find_first_VIRALFOODTWEET_tagged_mention(mentions)
+
+    # Step 5. Get the most search_results 
+    keywordresult = foo.search_results
 
     if foodtweet == None:
         print("No #VIRALFOODTWEET tweet to reply to")
