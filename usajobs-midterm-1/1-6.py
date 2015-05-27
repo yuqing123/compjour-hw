@@ -2,7 +2,7 @@ import requests
 
 BASE_USAJOBS_URL = "https://data.usajobs.gov/api/jobs"
 names = ['California', 'Florida', 'Maryland', 'New York']
-thelist = []
+thelist = [['Percentage living with parents', 'Median Earnings']]
 thelist.append(["State", "Job Count"])
 for n in names:
     atts = {'CountrySubdivision': n, 'NumberOfJobs': 1}
