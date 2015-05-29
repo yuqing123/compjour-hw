@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<!-- code from
+http://bl.ocks.org/mbostock/3306362
+-->
+
+<style>
+
+.states {
+  fill: none;
+  stroke: #fff;
+  stroke-linejoin: round;
+}
+
+</style>
+<body>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/queue.v1.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<script>
+
+var width = 960,
+    height = 500;
+
+var color = d3.scale.threshold()
+    .domain([.01, .4, .6, .8, 1.0])
+    .range(["#f2f0f7", "#dadaeb", "#bcbddc", "#9e9ac8", "#756bb1", "#54278f"]);
+
+var path = d3.geo.path();
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+queue()
+    .defer(d3.json, "./data/us.json")
+    .defer(d3.csv, "./data/percentage_change.csv")
+    .await(ready);
+
+function ready(error, us, unemployment) {
+  var rateById = {};
+
+  unemployment.forEach(function(d) { rateById[d.fips] = +d.percentage_change; });
+
+  svg.append("g")
+      .attr("class", "counties")
+    .selectAll("path")
+      .data(topojson.feature(us, us.objects.counties).features)
+    .enter().append("path")
+      .attr("d", path)
+      .style("fill", function(d) { return color(rateById[d.fips]); });
+
+  svg.append("path")
+      .datum(topojson.mesh(us, us.objects.states, function(a, b) { return a.fips !== b.fips; }))
+      .attr("class", "states")
+      .attr("d", path);
+}
+
+</script>
