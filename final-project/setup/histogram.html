@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['countyname', 'percentage'],
+          ['Custer County MT', 21.12], 
+          ['Daniels County MT', 9.38], 
+          ['Dawson County MT', 12.32], 
+          ['Deer Lodge County MT', 32.67], 
+          ['Fallon County MT', 25.42], 
+          ['Fergus County MT', 27.7], 
+          ['Flathead County MT', 25.52], 
+          ['Gallatin County MT', 7.13], 
+          ['Garfield County MT', 16.22],
+          ['Glacier County MT', 33.88], 
+          ['Golden Valley County MT', 4.71],
+          ['Granite County MT', 9.33],
+          ['Hill County, MT', 19.87], 
+          ['Jefferson County MT', 35.1], 
+          ['Judith Basin County MT', 36.54], 
+          ['Lake County, MT', 21.11], 
+          ['Lewis and Clark County, MT', 21.4], 
+          ['Liberty County, MT', 37.5], 
+          ['Lincoln County, MT', 29.64], 
+          ['McCone County, MT', 35.19], 
+          ['Madison County, MT', 15.91], 
+          ['Meagher County, MT', 38.71], 
+          ['Mineral County, MT', 44.63], 
+          ['Missoula County, MT', 16.85], 
+          ['Musselshell County, MT', 28.17], 
+          ['Park County, MT', 24.6]]);
+
+        var options = {
+          title: 'Lengths of dinosaurs, in meters',
+          legend: { position: 'none' },
+          colors: ['#e7711c'],
+          histogram: { bucketSize: 5 },
+          bar: { groupWidth: 10 }
+        };
+
+        var chart = new google.visualization.Histogram(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="chart_div" style="width: 900px; height: 500px;"></div>
+  </body>
+</html>

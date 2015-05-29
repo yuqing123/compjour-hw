@@ -1,0 +1,359 @@
+[
+  {
+    "liveWithParent_p": 31.03,
+    "medianEarnings": 30643.0,
+    "name": "Alabama",
+    "fips": "01",
+    "population18To34_p": 22.819
+  },
+  {
+    "liveWithParent_p": 26.23,
+    "medianEarnings": 38246.0,
+    "name": "Alaska",
+    "fips": "02",
+    "population18To34_p": 25.707
+  },
+  {
+    "liveWithParent_p": 28.07,
+    "medianEarnings": 32872.0,
+    "name": "Arizona",
+    "fips": "04",
+    "population18To34_p": 23.353
+  },
+  {
+    "liveWithParent_p": 25.36,
+    "medianEarnings": 29038.0,
+    "name": "Arkansas",
+    "fips": "05",
+    "population18To34_p": 22.721
+  },
+  {
+    "liveWithParent_p": 34.48,
+    "medianEarnings": 35734.0,
+    "name": "California",
+    "fips": "06",
+    "population18To34_p": 24.913
+  },
+  {
+    "liveWithParent_p": 22.19,
+    "medianEarnings": 35703.0,
+    "name": "Colorado",
+    "fips": "08",
+    "population18To34_p": 24.4
+  },
+  {
+    "liveWithParent_p": 35.31,
+    "medianEarnings": 40849.0,
+    "name": "Connecticut",
+    "fips": "09",
+    "population18To34_p": 21.32
+  },
+  {
+    "liveWithParent_p": 33.21,
+    "medianEarnings": 34778.0,
+    "name": "Delaware",
+    "fips": "10",
+    "population18To34_p": 22.727
+  },
+  {
+    "liveWithParent_p": 15.47,
+    "medianEarnings": 54279.0,
+    "name": "District of Columbia",
+    "fips": "11",
+    "population18To34_p": 35.036
+  },
+  {
+    "liveWithParent_p": 34.92,
+    "medianEarnings": 30524.0,
+    "name": "Florida",
+    "fips": "12",
+    "population18To34_p": 21.561
+  },
+  {
+    "liveWithParent_p": 29.68,
+    "medianEarnings": 31660.0,
+    "name": "Georgia",
+    "fips": "13",
+    "population18To34_p": 23.881
+  },
+  {
+    "liveWithParent_p": 31.03,
+    "medianEarnings": 34767.0,
+    "name": "Hawaii",
+    "fips": "15",
+    "population18To34_p": 23.738
+  },
+  {
+    "liveWithParent_p": 21.96,
+    "medianEarnings": 30199.0,
+    "name": "Idaho",
+    "fips": "16",
+    "population18To34_p": 23.096
+  },
+  {
+    "liveWithParent_p": 32.91,
+    "medianEarnings": 36546.0,
+    "name": "Illinois",
+    "fips": "17",
+    "population18To34_p": 23.587
+  },
+  {
+    "liveWithParent_p": 27.21,
+    "medianEarnings": 32313.0,
+    "name": "Indiana",
+    "fips": "18",
+    "population18To34_p": 22.877
+  },
+  {
+    "liveWithParent_p": 20.08,
+    "medianEarnings": 33561.0,
+    "name": "Iowa",
+    "fips": "19",
+    "population18To34_p": 22.767
+  },
+  {
+    "liveWithParent_p": 21.82,
+    "medianEarnings": 32239.0,
+    "name": "Kansas",
+    "fips": "20",
+    "population18To34_p": 23.527
+  },
+  {
+    "liveWithParent_p": 27.44,
+    "medianEarnings": 30879.0,
+    "name": "Kentucky",
+    "fips": "21",
+    "population18To34_p": 22.571
+  },
+  {
+    "liveWithParent_p": 30.94,
+    "medianEarnings": 31915.0,
+    "name": "Louisiana",
+    "fips": "22",
+    "population18To34_p": 24.375
+  },
+  {
+    "liveWithParent_p": 25.98,
+    "medianEarnings": 31784.0,
+    "name": "Maine",
+    "fips": "23",
+    "population18To34_p": 19.756
+  },
+  {
+    "liveWithParent_p": 33.69,
+    "medianEarnings": 41115.0,
+    "name": "Maryland",
+    "fips": "24",
+    "population18To34_p": 23.079
+  },
+  {
+    "liveWithParent_p": 31.29,
+    "medianEarnings": 42701.0,
+    "name": "Massachusetts",
+    "fips": "25",
+    "population18To34_p": 23.596
+  },
+  {
+    "liveWithParent_p": 32.77,
+    "medianEarnings": 32224.0,
+    "name": "Michigan",
+    "fips": "26",
+    "population18To34_p": 21.842
+  },
+  {
+    "liveWithParent_p": 23.67,
+    "medianEarnings": 37206.0,
+    "name": "Minnesota",
+    "fips": "27",
+    "population18To34_p": 23.023
+  },
+  {
+    "liveWithParent_p": 32.86,
+    "medianEarnings": 28589.0,
+    "name": "Mississippi",
+    "fips": "28",
+    "population18To34_p": 23.405
+  },
+  {
+    "liveWithParent_p": 25.97,
+    "medianEarnings": 31594.0,
+    "name": "Missouri",
+    "fips": "29",
+    "population18To34_p": 22.901
+  },
+  {
+    "liveWithParent_p": 21.23,
+    "medianEarnings": 30579.0,
+    "name": "Montana",
+    "fips": "30",
+    "population18To34_p": 22.154
+  },
+  {
+    "liveWithParent_p": 20.39,
+    "medianEarnings": 32136.0,
+    "name": "Nebraska",
+    "fips": "31",
+    "population18To34_p": 23.547
+  },
+  {
+    "liveWithParent_p": 27.66,
+    "medianEarnings": 33252.0,
+    "name": "Nevada",
+    "fips": "32",
+    "population18To34_p": 23.477
+  },
+  {
+    "liveWithParent_p": 30.84,
+    "medianEarnings": 36452.0,
+    "name": "New Hampshire",
+    "fips": "33",
+    "population18To34_p": 20.63
+  },
+  {
+    "liveWithParent_p": 40.72,
+    "medianEarnings": 41393.0,
+    "name": "New Jersey",
+    "fips": "34",
+    "population18To34_p": 21.514
+  },
+  {
+    "liveWithParent_p": 31.04,
+    "medianEarnings": 29271.0,
+    "name": "New Mexico",
+    "fips": "35",
+    "population18To34_p": 23.163
+  },
+  {
+    "liveWithParent_p": 35.73,
+    "medianEarnings": 39290.0,
+    "name": "New York",
+    "fips": "36",
+    "population18To34_p": 24.126
+  },
+  {
+    "liveWithParent_p": 26.65,
+    "medianEarnings": 31247.0,
+    "name": "North Carolina",
+    "fips": "37",
+    "population18To34_p": 22.951
+  },
+  {
+    "liveWithParent_p": 15.42,
+    "medianEarnings": 33610.0,
+    "name": "North Dakota",
+    "fips": "38",
+    "population18To34_p": 26.118
+  },
+  {
+    "liveWithParent_p": 29.11,
+    "medianEarnings": 32792.0,
+    "name": "Ohio",
+    "fips": "39",
+    "population18To34_p": 21.949
+  },
+  {
+    "liveWithParent_p": 23.15,
+    "medianEarnings": 30622.0,
+    "name": "Oklahoma",
+    "fips": "40",
+    "population18To34_p": 23.744
+  },
+  {
+    "liveWithParent_p": 23.03,
+    "medianEarnings": 32813.0,
+    "name": "Oregon",
+    "fips": "41",
+    "population18To34_p": 23.039
+  },
+  {
+    "liveWithParent_p": 32.56,
+    "medianEarnings": 35586.0,
+    "name": "Pennsylvania",
+    "fips": "42",
+    "population18To34_p": 22.065
+  },
+  {
+    "liveWithParent_p": 31.6,
+    "medianEarnings": 35856.0,
+    "name": "Rhode Island",
+    "fips": "44",
+    "population18To34_p": 23.71
+  },
+  {
+    "liveWithParent_p": 28.95,
+    "medianEarnings": 30876.0,
+    "name": "South Carolina",
+    "fips": "45",
+    "population18To34_p": 23.103
+  },
+  {
+    "liveWithParent_p": 18.99,
+    "medianEarnings": 31161.0,
+    "name": "South Dakota",
+    "fips": "46",
+    "population18To34_p": 23.084
+  },
+  {
+    "liveWithParent_p": 28.27,
+    "medianEarnings": 30575.0,
+    "name": "Tennessee",
+    "fips": "47",
+    "population18To34_p": 22.632
+  },
+  {
+    "liveWithParent_p": 29.45,
+    "medianEarnings": 31663.0,
+    "name": "Texas",
+    "fips": "48",
+    "population18To34_p": 24.667
+  },
+  {
+    "liveWithParent_p": 25.3,
+    "medianEarnings": 32857.0,
+    "name": "Utah",
+    "fips": "49",
+    "population18To34_p": 27.237
+  },
+  {
+    "liveWithParent_p": 23.37,
+    "medianEarnings": 32865.0,
+    "name": "Vermont",
+    "fips": "50",
+    "population18To34_p": 21.748
+  },
+  {
+    "liveWithParent_p": 27.66,
+    "medianEarnings": 37969.0,
+    "name": "Virginia",
+    "fips": "51",
+    "population18To34_p": 23.846
+  },
+  {
+    "liveWithParent_p": 24.79,
+    "medianEarnings": 37041.0,
+    "name": "Washington",
+    "fips": "53",
+    "population18To34_p": 23.721
+  },
+  {
+    "liveWithParent_p": 30.61,
+    "medianEarnings": 30488.0,
+    "name": "West VA",
+    "fips": "54",
+    "population18To34_p": 21.113
+  },
+  {
+    "liveWithParent_p": 24.72,
+    "medianEarnings": 33297.0,
+    "name": "Wisconsin",
+    "fips": "55",
+    "population18To34_p": 22.407
+  },
+  {
+    "liveWithParent_p": 19.2,
+    "medianEarnings": 36164.0,
+    "name": "Wyoming",
+    "fips": "56",
+    "population18To34_p": 23.87
+  }
+]
