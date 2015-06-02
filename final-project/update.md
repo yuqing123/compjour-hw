@@ -15,4 +15,5 @@
 - Figure out how to add interactive toolbar to the Choropleth Map
 - Find interesting outlier. For example, a county with a huge percentage increase and find out why.
 - My graphics, data and python script are all over the folder, need to find a way organize them and put all the graphic on a single page
+- Write CSS to style the index page
 
