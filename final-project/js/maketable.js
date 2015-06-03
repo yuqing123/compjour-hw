@@ -1,4 +1,4 @@
-google.load("visualization", "1", {packages:["table"]});
+/*google.load("visualization", "1", {packages:["table"]});*/
       google.setOnLoadCallback(drawTable);
 
       function drawTable() {
