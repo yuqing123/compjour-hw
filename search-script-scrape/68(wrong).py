@@ -1,6 +1,8 @@
-from lxml import html
 import requests
-page = requests.get('https://www.accessdata.fda.gov/scripts/cder/ob/docs/tempah.cfm')
-tree = html.fromstring(page.text)
-result = tree.xpath('//tr/td/a')
-print (len(result))
+from lxml import html
+response = requests.get('https://www.accessdata.fda.gov/scripts/cder/ob/docs/tempah.cfm')
+doc = html.fromstring(response.text) 
+tables = doc.cssselect('table')[0]
+
+row = tables.cssselect('tr')
+print (len(row))
