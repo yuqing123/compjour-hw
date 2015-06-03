@@ -12,23 +12,27 @@
  
  <script type="text/javascript" src="https://www.google.com/jsapi"></script>
  <script src="./js/maketable.js"></script>
- <script src="./js/makelinegraph.js"></script>
+ <script src="./js/makecolumn.js"></script>
+ <!--
  <script type="text/javascript">
  google.load('visualization', '1', {'packages': ['table', 'line', 'corechart']});
  </script>
+-->
 </head>
 
 <body>
 	<h1>Explore how many young adults live with their parents</h1>
-	<div id="linechart_material"></div>
-
+	<p>
+  	More and more young adults (18 to 34) now live with their parents at home.
+	</p>
+	<div id="chart_div"></div>
 	<div id="map_div">
 		<h2>Explore county level data</h2>
+
+		<script src="./js/makemap.js"></script>
 		<p>
   			The data is from US Census Bureau American Community Survey.
 		</p>
-
-		<script src="./js/makemap.js"></script>
 	</div>
 
 	<div>
@@ -39,6 +43,10 @@
 		<div id="table_div"></div>
 
 	</div>
-
+	<p>
+  		Source: U.S. Census Bureau, Decennial Censuses, 1960 to 1980, and Current Population Survey, 
+  		<br/>
+  		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Annual Social and Economic Supplements, 1983 to 2014. 
+	</p>
 </body>
 </html>

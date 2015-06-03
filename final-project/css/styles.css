@@ -1,3 +1,22 @@
+/* main page style*/
+#table_div {
+ margin-left: 80px;
+}
+
+h1 {
+ margin-left: 80px;
+}
+
+h2 {
+ margin-left: 80px;
+}
+
+p {
+ margin-left: 80px;
+}
+/* end of main page style*/
+
+/* map style*/
 path {
  stroke:white;
  stroke-width: 0.5px;
@@ -30,3 +49,4 @@ div.tooltip {
  border-radius: 5px;
  pointer-events: none;
 }
+/* end of map style*/

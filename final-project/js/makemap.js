@@ -2,7 +2,7 @@ var width = 960,
  height = 500;
  var color_domain = [ -30, -20, -10, 0, 10, 20, 30, 40]
  var ext_color_domain = [ -40, -30, -20, -10, 0, 10, 20, 30, 40]
- var legend_labels = ["< -30%", "-30% to -20%", "-20% to -10%", "-10% to 0", "0 to 10%", "10% to 20%", "20% to 30%", "30% to 40%", "> 40%"]
+ var legend_labels = ["< -30%", "< -20%", "< -10%", "-10% to 0", "0 to 10%", "> 10%", "> 20%", "> 30%", "> 40%"]
  var color = d3.scale.threshold()
  .domain(color_domain)
  .range(["#303c56", "#236386", "#6FAFD3", "#BDD9E8", "#fee4ab", "#ffd862", "#fdaf17", "#fd7e17", "#fd4817"]);
