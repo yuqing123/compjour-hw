@@ -37,7 +37,7 @@ def convert(csv_filename):
 convert('YA_2009_2013_040.csv')
 
 
-### trimming the data
+### trim the data
 
 with open("./jsons/YA_2009_2013_040.json") as f:
     data = json.loads(f.read())
