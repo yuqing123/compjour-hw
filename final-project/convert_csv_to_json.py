@@ -4,7 +4,6 @@ import json
 import requests
 
 #EDIT THIS LIST WITH YOUR REQUIRED JSON KEY NAMES
-#fieldnames=["fips","name","population","population18To34","population18To34_me","population18To34_p","population18To34_pme","white","white_me","white_p","white_pme","minority","minority_me","minority_p","minority_pme","neverMarried","neverMarried_me","neverMarried_p","neverMarried_pme","liveAlone","liveAlone_me","liveAlone_p","liveAlone_pme","educationBachelor","educationBachelor_me","educationBachelor_p","educationBachelor_pme","civilian","veteran","veteran_me","veteran_p","veteran_pme","foreignBorn","foreignBorn_me","foreignBorn_p","foreignBorn_pme","otherLanguage","otherLanguage_me","otherLanguage_p","otherLanguage_pme","medianEarnings","medianEarnings_me","povertyUniverse","poverty","poverty_me","poverty_p","poverty_pme","employed","employed_me","employed_p","employed_pme","commuter","droveToWork","droveToWork_me","droveToWork_p","droveToWork_pme","liveWithParent","liveWithParent_me","liveWithParent_p","liveWithParent_pme"]
 
 WANTEDHEADERS = ['population18To34_p','neverMarried_p','liveWithParent_p','educationBachelor_p','employed_p']
 
