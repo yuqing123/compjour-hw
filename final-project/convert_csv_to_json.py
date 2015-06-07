@@ -47,7 +47,6 @@ for d in data:
     thelist.append([d['name'],d['population18To34_p'],d['liveWithParent_p'],d['neverMarried_p'],d['educationBachelor_p'],d['employed_p']])
 print (thelist)
 
-# make html
 
 
 
